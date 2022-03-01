@@ -24,3 +24,7 @@ python main.py --model GACTRNN
 ```
 python main.py --load True --save_dir ./trained_models
 ```
+### Train on your own EMG and force data
+```
+python main.py --model mDF/DF/GACTRNN --emg_path ? --force_path ? --save_dir ?
+```
